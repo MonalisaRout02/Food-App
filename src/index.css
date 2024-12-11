@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+}
+
+.logo{
+  width: 100px;
+
+}
+.Navbar{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  border-bottom: 2px solid #f0f0f0;
+  background-color: #fff4e6;
+  
+}
+.body{
+ 
+
+ 
+  display: flex;
+align-items: center;
+  flex-direction: column;
+  
+
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Ensures cards are centered */
+ 
+  margin: auto;
+}
+
+.menu-items{
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-items ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.menu-items ul li{
+  margin: 0px 20px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: #7e7e7e;
+
+}
+.restaurant-card{
+  width: 200px;
+  height:auto;
+  margin: 20px;
+  background-color: #ffff;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #eeeeee;
+
+}
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+
+}
+.shimmer-cards{
+  width: 200px;
+  margin: 20px;
+  background-color: #fff;
+  flex-direction: column;
+  
+}
+.img-box{
+  width: 200px;
+  height: 150px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.text-box1{
+  width: 150px;
+  height: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+.text-box2{
+  width: 160px;
+  height: 10px;
+  background-color: #f0f0f0;
+}
+.res-img{
+  width: 200px;
+  object-fit:cover;
+  height: 150px;
+}
+
+.text-large{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600;
+font-size: 16px;
+}
+.text-semibold{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  font-weight: 500;
+font-size: 14px;
+
+}
+.text-regular{
+  font-family: poppins;
+  font-weight: 400;
+font-size: 12px;
+
+}
+.top-button, .search-button{
+
+  font-style: poppins;
+  padding: 8px 16px;
+  background-color:#e5aa5d ;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  font-weight:600;
+  border-radius: 8px;
+}
+.filter{
+  margin: 20px 0 ;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-box{
+  padding: 6px 20px;
+  margin-right: 10px;
+}
